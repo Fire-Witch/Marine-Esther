@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3479671206603840464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.7}
+  m_LocalPosition: {x: 0, y: 0, z: -1.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3479671206973003410}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyName: Turret
-  HUD: {fileID: 3649646035906253901, guid: 5bba2961f4b1d2740b15f64a4039fba0, type: 3}
+  gloryKills: {fileID: 0}
 --- !u!1 &3479671206973003411
 GameObject:
   m_ObjectHideFlags: 0

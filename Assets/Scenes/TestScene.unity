@@ -315,6 +315,29 @@ PrefabInstance:
       propertyPath: currentAmmo
       value: 999
       objectReference: {fileID: 0}
+    - target: {fileID: 7479623131454346403, guid: 923de4ada92471448bb695ec51ee8cdb,
+        type: 3}
+      propertyPath: roomObj.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479623131454346403, guid: 923de4ada92471448bb695ec51ee8cdb,
+        type: 3}
+      propertyPath: roomObj.Array.data[0]
+      value: 
+      objectReference: {fileID: 587422957875182681, guid: ac16ff9e33f37b64089b6109befc6985,
+        type: 3}
+    - target: {fileID: 7479623131454346403, guid: 923de4ada92471448bb695ec51ee8cdb,
+        type: 3}
+      propertyPath: roomObj.Array.data[1]
+      value: 
+      objectReference: {fileID: 587422957875182681, guid: ac16ff9e33f37b64089b6109befc6985,
+        type: 3}
+    - target: {fileID: 7479623131454346403, guid: 923de4ada92471448bb695ec51ee8cdb,
+        type: 3}
+      propertyPath: roomObj.Array.data[2]
+      value: 
+      objectReference: {fileID: 4265024925540956551, guid: a20c23d56942eb24488eae729254c663,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 923de4ada92471448bb695ec51ee8cdb, type: 3}
 --- !u!1001 &8843476509268199911
