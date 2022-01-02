@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 3479671206603840478}
   - component: {fileID: 3479671206603840477}
   - component: {fileID: 3479671206603840476}
-  - component: {fileID: 5378379329312810208}
-  - component: {fileID: 8892198531023079532}
   m_Layer: 0
   m_Name: EnemyTurret
   m_TagString: Enemy
@@ -95,36 +93,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &5378379329312810208
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3479671206603840464}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1
---- !u!114 &8892198531023079532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3479671206603840464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01dc0353403d2d84aba8e56442dcd8ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EnemyName: Turret
-  gloryKills: {fileID: 0}
 --- !u!1 &3479671206973003411
 GameObject:
   m_ObjectHideFlags: 0
